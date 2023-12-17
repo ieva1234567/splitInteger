@@ -1,0 +1,25 @@
+{
+  "name": "split-integer-into-almost-even-integers",
+  "version": "1.0.0",
+  "description": "Sample JS utilities library",
+  "main": "dist/splitInteger.cjs.js",
+  "module": "dist/splitInteger.esm.js",
+  "browser": "dist/splitInteger.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "rollup": "^2.36.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
