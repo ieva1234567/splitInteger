@@ -7,3 +7,10 @@ https://math.stackexchange.com/questions/1791795/dividing-an-integer-into-a-fixe
 How to launch node package locally ?
 1. cd into package directory and run "npm link"
 2. cd unto project directory from which package should be used and run "npm link split-integer-into-almost-even-integers"
+
+
+Usage:
+const splitInteger = require('split-integer-into-almost-even-integers');
+console.log(splitInteger(10,1));
+
+
